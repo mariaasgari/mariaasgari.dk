@@ -1,0 +1,58 @@
+.animation-screen {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cec6c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    animation: fadeOut 2s ease-in-out;
+    transition-delay: 1.5s; 
+  }
+  
+  .animation-text {
+    color: #484848;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .animate-up {
+    display: block;
+    transform: translateY(0);
+    animation: slideUpDown 1.8s ease-in-out;
+  }
+  
+  .animate-down {
+    display: block;
+    transform: translateY(0);
+    animation: slideDownUp 1.8s ease-in-out;
+  }
+  
+  @keyframes slideUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+  @keyframes slideDownUp {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,33 @@
+  h1, h2, h3 {
+    color: #484848;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: #191b21;
+    margin: 0;
+  }
+
+.big-letter {
+    font-size: 1.7vw;
+    color: #484848;
+
+    @media (max-width: 1200px) {
+      font-size: large;
+    }
+
+  }
+
+  .space--big {
+    height: 7rem;
+  }
+  
+  .space--medium {
+    height: 2rem;
+  }
+  
+  .space--small {
+    height: 1rem;
+  }
