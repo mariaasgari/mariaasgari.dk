@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     z-index: 3;
-    animation: fadeOut 2s ease-in-out;
+    animation: fadeOut 3s ease-in-out;
     transition-delay: 1.5s; 
   }
   
@@ -24,13 +24,13 @@
   .animate-up {
     display: block;
     transform: translateY(0);
-    animation: slideUpDown 1.8s ease-in-out;
+    animation: slideUpDown 2.8s ease-in-out;
   }
   
   .animate-down {
     display: block;
     transform: translateY(0);
-    animation: slideDownUp 1.8s ease-in-out;
+    animation: slideDownUp 2.8s ease-in-out;
   }
   
   @keyframes slideUpDown {
